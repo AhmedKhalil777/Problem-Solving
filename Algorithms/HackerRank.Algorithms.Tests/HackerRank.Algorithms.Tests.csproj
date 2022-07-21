@@ -26,4 +26,10 @@
       <ProjectReference Include="..\HackerRank.Algorithms\HackerRank.Algorithms.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="M\migratoryBatch.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>
