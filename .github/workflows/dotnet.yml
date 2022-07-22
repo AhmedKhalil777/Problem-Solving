@@ -22,7 +22,6 @@ jobs:
     - name: Build
       working-directory: ./Algorithms
       run: 
-        cd "Algorithms"
         dotnet build --no-restore
   test-algorithms:
     runs-on: ubuntu-latest
