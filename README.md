@@ -1,6 +1,8 @@
 # HackerRank-Dotnet
 Solving problems of Hacker rank on dotnet
 
+- If you like the repo: Give me a star
+
 # Piplines 
 - Build : [![.NET](https://github.com/AhmedKhalil777/HackerRank-Dotnet/actions/workflows/dotnet-build.yml/badge.svg)](https://github.com/AhmedKhalil777/HackerRank-Dotnet/actions/workflows/dotnet-build.yml)
 - Test : [![.NET](https://github.com/AhmedKhalil777/HackerRank-Dotnet/actions/workflows/dotnet-Test.yml/badge.svg)](https://github.com/AhmedKhalil777/HackerRank-Dotnet/actions/workflows/dotnet-Test.yml)
