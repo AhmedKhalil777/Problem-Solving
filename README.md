@@ -2,8 +2,8 @@
 Solving problems of Hacker rank on dotnet
 
 # Piplines 
-- Build : [![.NET](https://github.com/AhmedKhalil777/HackerRank-Dotnet/actions/workflows/dotnet.yml/badge.svg?branch=main)](https://github.com/AhmedKhalil777/HackerRank-Dotnet/actions/workflows/dotnet.yml)
-- Test : [![.NET](https://github.com/AhmedKhalil777/HackerRank-Dotnet/actions/workflows/dotnet.yml/badge.svg?branch=main)](https://github.com/AhmedKhalil777/HackerRank-Dotnet/actions/workflows/dotnet.yml)
+- Build : [![.NET](https://github.com/AhmedKhalil777/HackerRank-Dotnet/actions/workflows/dotnet-build.yml/badge.svg)](https://github.com/AhmedKhalil777/HackerRank-Dotnet/actions/workflows/dotnet-build.yml)
+- Test : [![.NET](https://github.com/AhmedKhalil777/HackerRank-Dotnet/actions/workflows/dotnet-Test.yml/badge.svg)](https://github.com/AhmedKhalil777/HackerRank-Dotnet/actions/workflows/dotnet-Test.yml)
 
 # Domains
 > The Solution is handled with alphabitical order within the solution domain with TDD techniques
