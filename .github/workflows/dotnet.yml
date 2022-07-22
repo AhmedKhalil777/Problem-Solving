@@ -16,10 +16,11 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
+      working-directory: ./Algorithms
       run:
-        cd "Algorithms"
         dotnet restore
     - name: Build
+      working-directory: ./Algorithms
       run: 
         cd "Algorithms"
         dotnet build --no-restore
@@ -32,11 +33,11 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
+      working-directory: ./Algorithms
       run: 
-        cd "Algorithms"
         dotnet restore
-    - name: Build
+    - name: Test
+      working-directory: ./Algorithms
       run: 
-        cd "Algorithms"
         dotnet test
   
