@@ -29,6 +29,5 @@ jobs:
     - name: Upload dotnet test results
       uses: actions/upload-artifact@v3
       with:
-        directory: ./Algorithms
         name: dotnet-results-${{ matrix.dotnet-version }}
-        path: TestResults-${{ matrix.dotnet-version }}
+        path: ./Algorithms/TestResults-${{ matrix.dotnet-version }}
