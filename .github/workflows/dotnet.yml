@@ -16,7 +16,7 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Open Directory of Server
-      run: cd "Algorithms\HackerRank.Algorithms"
+      run: cd ".\Algorithms\HackerRank.Algorithms"
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
@@ -30,7 +30,7 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Open Directory of Server
-      run: cd "Algorithms\HackerRank.Algorithms.Tests"
+      run: cd ".\Algorithms\HackerRank.Algorithms.Tests"
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
