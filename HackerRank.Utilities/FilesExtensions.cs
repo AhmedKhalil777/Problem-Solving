@@ -12,12 +12,18 @@ public static class FilesExtensions
         return File.ReadAllText(path).Split(' ').Select(x => int.Parse(x)).ToArray();
     }
 
-    public static List<List<int>> ReadAsMatrix(this string path)
+    public static List<List<int>> ReadLinesAsMatrix(this string path)
     {
         return File.ReadLines(path)
             .Select(x =>  x.Split(' ')
                                 .Select(y => int.Parse(y))
                                 .ToList())
             .ToList();
+    }
+    
+    public static List<int> ReadLinesAsVector(this string path)
+    {
+        return File.ReadLines(path)
+            .Select(y => int.Parse(y)).ToList();
     }
 }
