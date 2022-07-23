@@ -11,4 +11,13 @@ public static class FilesExtensions
     {
         return File.ReadAllText(path).Split(' ').Select(x => int.Parse(x)).ToArray();
     }
+
+    public static List<List<int>> ReadAsMatrix(this string path)
+    {
+        return File.ReadLines(path)
+            .Select(x =>  x.Split(' ')
+                                .Select(y => int.Parse(y))
+                                .ToList())
+            .ToList();
+    }
 }
