@@ -37,7 +37,7 @@ jobs:
         name: dotnet-results-algorithms-tests
         path: ./Algorithms/TestResults-${{ matrix.dotnet-version }}
         
-  test-data-structure:
+  test-data-structures:
 
     runs-on: ubuntu-latest
 
@@ -65,5 +65,5 @@ jobs:
       uses: actions/download-artifact@v3
       with:
         name: dotnet-results-data-structures-tests
-        path: ./Algorithms/TestResults-${{ matrix.dotnet-version }}
+        path: ./DataStructures/TestResults-${{ matrix.dotnet-version }}
 
