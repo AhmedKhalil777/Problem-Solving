@@ -9,7 +9,7 @@ public class ElectronicsShop
             .Should().Be(9);
         Algorithms.ElectronicsShop.getMoneySpent(new []{40,50,60 }, new []{5,8,12}, 58)
             .Should().Be(58);
-        Algorithms.ElectronicsShop.getMoneySpent("./E/keyboards.txt".AsIntArray(),"./E/drives.txt".AsIntArray() , 374625)
+        Algorithms.ElectronicsShop.getMoneySpent("./E/keyboards.txt".AsFileIntArray(),"./E/drives.txt".AsFileIntArray() , 374625)
             .Should().Be(374625);
     }
     

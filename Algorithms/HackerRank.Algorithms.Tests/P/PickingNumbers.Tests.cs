@@ -13,6 +13,6 @@ public class PickingNumbers
     [Fact]
     public void pickingNumbers_GivenFileListOfNums_ShouldReturnLongestStreakOfAbsoluteOnes()
     {
-        Algorithms.PickingNumbers.pickingNumbers("./P/numbersTest.txt".AsIntList()).Should().Be(3);
+        Algorithms.PickingNumbers.pickingNumbers("./P/numbersTest.txt".AsFileIntList()).Should().Be(3);
     }
 }

@@ -2,12 +2,12 @@
 
 public static class FilesExtensions
 {
-    public static List<int> AsIntList(this string path)
+    public static List<int> AsFileIntList(this string path)
     {
        return File.ReadAllText(path).Split(' ').Select(x => int.Parse(x)).ToList();
     }
     
-    public static int[] AsIntArray(this string path)
+    public static int[] AsFileIntArray(this string path)
     {
         return File.ReadAllText(path).Split(' ').Select(x => int.Parse(x)).ToArray();
     }
