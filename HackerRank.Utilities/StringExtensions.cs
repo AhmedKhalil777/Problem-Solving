@@ -1,4 +1,4 @@
-﻿namespace HackerRank.Algorithms.Tests;
+﻿namespace HackerRank.Utilities;
 
 public static class StringExtensions
 {

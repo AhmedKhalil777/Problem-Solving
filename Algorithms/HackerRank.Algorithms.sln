@@ -1,21 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.Algorithms", "HackerRank.Algorithms\HackerRank.Algorithms.csproj", "{BFB66D11-BCF0-4ACE-85F7-DA6BF12C175C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerRank.Algorithms", "HackerRank.Algorithms\HackerRank.Algorithms.csproj", "{BFB66D11-BCF0-4ACE-85F7-DA6BF12C175C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.Algorithms.Tests", "HackerRank.Algorithms.Tests\HackerRank.Algorithms.Tests.csproj", "{27B6084B-EF58-4B85-BBE2-937119ADBF32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerRank.Algorithms.Tests", "HackerRank.Algorithms.Tests\HackerRank.Algorithms.Tests.csproj", "{27B6084B-EF58-4B85-BBE2-937119ADBF32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.Algorithms.Benchmarks", "HackerRank.Algorithms.Benchmarks\HackerRank.Algorithms.Benchmarks.csproj", "{7C7E7468-90A5-4340-BE9E-0DF239D0A563}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerRank.Algorithms.Benchmarks", "HackerRank.Algorithms.Benchmarks\HackerRank.Algorithms.Benchmarks.csproj", "{7C7E7468-90A5-4340-BE9E-0DF239D0A563}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerRank.Utilities", "..\HackerRank.Utilities\HackerRank.Utilities.csproj", "{C96443CD-C2CA-45CE-8F59-C3254160BB9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{BFB66D11-BCF0-4ACE-85F7-DA6BF12C175C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,7 +29,15 @@ Global
 		{7C7E7468-90A5-4340-BE9E-0DF239D0A563}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C7E7468-90A5-4340-BE9E-0DF239D0A563}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C7E7468-90A5-4340-BE9E-0DF239D0A563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C96443CD-C2CA-45CE-8F59-C3254160BB9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C96443CD-C2CA-45CE-8F59-C3254160BB9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C96443CD-C2CA-45CE-8F59-C3254160BB9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C96443CD-C2CA-45CE-8F59-C3254160BB9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCB4EC82-6F0F-4CA5-BAFF-3EC53CD312FD}
 	EndGlobalSection
 EndGlobal

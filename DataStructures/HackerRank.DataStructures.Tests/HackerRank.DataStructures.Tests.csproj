@@ -24,22 +24,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\..\HackerRank.Utilities\HackerRank.Utilities.csproj" />
-      <ProjectReference Include="..\HackerRank.Algorithms\HackerRank.Algorithms.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <None Update="M\migratoryBatch.txt">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="E\drives.txt">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="E\keyboards.txt">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="P\numbersTest.txt">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
+      <ProjectReference Include="..\HackerRank.DataStructures\HackerRank.DataStructures.csproj" />
     </ItemGroup>
 
 </Project>
