@@ -23,4 +23,20 @@ jobs:
       working-directory: ./Algorithms
       run: 
         dotnet build --no-restore
+  build-data-structures:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 6.0.x
+    - name: Restore dependencies
+      working-directory: ./DataStructures
+      run:
+        dotnet restore
+    - name: Build
+      working-directory: ./DataStructures
+      run: 
+        dotnet build --no-restore
   
