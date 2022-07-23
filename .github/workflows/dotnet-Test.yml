@@ -25,17 +25,17 @@ jobs:
       run: dotnet build --no-restore
     - name: Test with dotnet
       working-directory: ./Algorithms
-      run: dotnet test --logger trx --results-directory "TestResults-${{ matrix.dotnet-version }}"
+      run: dotnet test --logger trx --results-directory "TestResults-Algorithms"
     - name: Upload dotnet test results
       uses: actions/upload-artifact@v3
       with:
-        name: dotnet-results-${{ matrix.dotnet-version }}
-        path: ./Algorithms/TestResults-${{ matrix.dotnet-version }}
+        name: dotnet-results-algorithms
+        path: ./Algorithms/TestResults-Algorithms
     - name: Download all workflow run artifacts
       uses: actions/download-artifact@v3
       with:
         name: dotnet-results-algorithms-tests
-        path: ./Algorithms/TestResults-${{ matrix.dotnet-version }}
+        path: ./Algorithms/TestResults-Algorithms
         
   test-data-structures:
 
@@ -55,15 +55,15 @@ jobs:
       run: dotnet build --no-restore
     - name: Test with dotnet
       working-directory: ./DataStructures
-      run: dotnet test --logger trx --results-directory "TestResults-${{ matrix.dotnet-version }}"
+      run: dotnet test --logger trx --results-directory "TestResults-DataStructures"
     - name: Upload dotnet test results
       uses: actions/upload-artifact@v3
       with:
-        name: dotnet-results-${{ matrix.dotnet-version }}
-        path: ./DataStructures/TestResults-${{ matrix.dotnet-version }}
+        name: dotnet-results-data-structures-tests
+        path: ./DataStructures/TestResults-DataStructures
     - name: Download all workflow run artifacts
       uses: actions/download-artifact@v3
       with:
         name: dotnet-results-data-structures-tests
-        path: ./DataStructures/TestResults-${{ matrix.dotnet-version }}
+        path: ./DataStructures/TestResults-DataStructures
 
