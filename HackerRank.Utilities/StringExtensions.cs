@@ -6,4 +6,5 @@ public static class StringExtensions
     {
         return serial.Split(' ').Select(x => int.Parse(x)).ToList();
     }
+
 }
