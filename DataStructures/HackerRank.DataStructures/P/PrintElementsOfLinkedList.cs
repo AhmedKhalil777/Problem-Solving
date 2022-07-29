@@ -20,6 +20,7 @@ public class PrintElementsOfLinkedList
         while (head is not null)
         {
             Console.WriteLine(head.data);
+            // For Testing
             results.Add(head.data);
             if (head.next is  null)
             {
@@ -27,7 +28,6 @@ public class PrintElementsOfLinkedList
             }
             head = head.next;
             
-            // For Testing
         }
     }
 
