@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.DataStructures.T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.Utilities", "..\HackerRank.Utilities\HackerRank.Utilities.csproj", "{C1ED2D21-38C6-4CEA-B116-45DF3E2A409A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.DataStructures.Benchmarks", "HackerRank.DataStructures.Benchmarks\HackerRank.DataStructures.Benchmarks.csproj", "{0FDD03A7-0232-442A-9CD1-72828766EF42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{C1ED2D21-38C6-4CEA-B116-45DF3E2A409A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1ED2D21-38C6-4CEA-B116-45DF3E2A409A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1ED2D21-38C6-4CEA-B116-45DF3E2A409A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FDD03A7-0232-442A-9CD1-72828766EF42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FDD03A7-0232-442A-9CD1-72828766EF42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FDD03A7-0232-442A-9CD1-72828766EF42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FDD03A7-0232-442A-9CD1-72828766EF42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
