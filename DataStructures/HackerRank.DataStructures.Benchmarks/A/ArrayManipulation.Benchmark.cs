@@ -8,7 +8,7 @@ namespace HackerRank.DataStructures.Benchmarks;
 // The Third one work on the fact of every item in range will be sum to k, and after this range when [b+1] It will lose that progress
 // So the fact is if we sum in progress whe sum on arr[a -1] and subtract the k from arr[b] as It will lose If it reach the lossy point 
 // It will be the real sum in this place
-public class ArrayManipulations
+public class ArrayManipulation
 {
     
     [ParamsSource(nameof(ValuesForQueries))]
