@@ -1,4 +1,5 @@
 ﻿using FluentAssertions;
+using HackerRank.Utilities.Types;
 
 namespace HackerRank.DataStructures.Tests;
 

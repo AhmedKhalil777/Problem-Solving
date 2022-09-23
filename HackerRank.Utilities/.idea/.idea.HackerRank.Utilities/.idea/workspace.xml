@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ae2ef593-e486-4b76-90fa-94bb75ca0116" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../DataStructures/HackerRank.DataStructures.Tests/I/InsertNodeAtTailOfSinglyLinkedList.Tests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataStructures/HackerRank.DataStructures/I/InsertNodeAtTailOfSinglyLinkedList.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataStructures/HackerRank.DataStructures/I/InsertNodeAtTailOfSinglyLinkedList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonIntrop/PyCall.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructures/HackerRank.DataStructures.Tests/HackerRank.DataStructures.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructures/HackerRank.DataStructures.Tests/HackerRank.DataStructures.Tests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructures/HackerRank.DataStructures.Tests/HackerRank.DataStructures.Tests.csproj.DotSettings" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructures/HackerRank.DataStructures.Tests/HackerRank.DataStructures.Tests.csproj.DotSettings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructures/HackerRank.DataStructures.Tests/P/PrintElementsOfLinkedList.Tests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructures/HackerRank.DataStructures.Tests/P/PrintElementsOfLinkedList.Tests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructures/HackerRank.DataStructures/HackerRank.DataStructures.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructures/HackerRank.DataStructures/HackerRank.DataStructures.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructures/HackerRank.DataStructures/HackerRank.DataStructures.csproj.DotSettings" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructures/HackerRank.DataStructures/HackerRank.DataStructures.csproj.DotSettings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructures/HackerRank.DataStructures/P/PrintElementsOfLinkedList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructures/HackerRank.DataStructures/P/PrintElementsOfLinkedList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank.Utilities.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank.Utilities.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Types/SinglyLinkedListNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Types/SinglyLinkedListNode.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2ES3goHYtm27bLy10wPUNASvmFB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1662575274425</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662575274425</updated>
+      <workItem from="1662575279233" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

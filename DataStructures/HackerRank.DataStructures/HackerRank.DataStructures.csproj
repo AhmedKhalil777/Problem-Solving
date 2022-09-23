@@ -6,4 +6,14 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\HackerRank.Utilities\HackerRank.Utilities.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="I\InsertNodeAtTailOfSinglyLinkedList.py">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>

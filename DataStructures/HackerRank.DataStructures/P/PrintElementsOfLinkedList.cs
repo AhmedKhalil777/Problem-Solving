@@ -1,9 +1,11 @@
-﻿namespace HackerRank.DataStructures;
+﻿using HackerRank.Utilities.Types;
+
+namespace HackerRank.DataStructures;
 
 public class PrintElementsOfLinkedList
 {
 
-    public static List<string> results;
+    public static List<object> results;
     /*
  * For your reference:
  *
@@ -16,7 +18,7 @@ public class PrintElementsOfLinkedList
     public static void printLinkedList(SinglyLinkedListNode head)
     {
         // For Testing
-        results = new List<string>();
+        results = new List<object>();
         while (head is not null)
         {
             Console.WriteLine(head.data);
@@ -32,10 +34,4 @@ public class PrintElementsOfLinkedList
     }
 
 
-}
-
-public class SinglyLinkedListNode
-{
-    public SinglyLinkedListNode? next { get; set; }
-    public string data { get; set; }
 }

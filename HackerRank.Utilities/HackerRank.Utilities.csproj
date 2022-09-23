@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="IronPython" Version="3.4.0-beta1" />
+    </ItemGroup>
+
 </Project>
