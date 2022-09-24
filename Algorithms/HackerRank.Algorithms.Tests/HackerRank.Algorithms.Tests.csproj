@@ -28,6 +28,9 @@
     </ItemGroup>
 
     <ItemGroup>
+      <None Update="C\CircularArrayRotationBatch.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
       <None Update="M\migratoryBatch.txt">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
