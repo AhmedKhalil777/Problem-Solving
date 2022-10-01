@@ -7,3 +7,6 @@ Where population >  100000  and CountryCode = 'USA'
 
 Select Name From City 
 Where Population > 120000 and CountryCode = 'USA'
+
+-- Select All
+Select * From CITY
