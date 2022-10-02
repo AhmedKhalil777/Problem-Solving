@@ -29,7 +29,7 @@ CITY LIKE 'u%';
 -- OR
 SELECT CITY FROM STATION WHERE SUBSTRING(CITY,1,1) IN ('A','E','I','O','U')
 
--- Weather Observation Station 6
+-- Weather Observation Station 7
 
 Select DISTINCT CITY From STATION WHERE 
 CITY LIKE '%a' OR 
@@ -48,3 +48,6 @@ SELECT DISTINCT CITY
 FROM STATION
 WHERE CITY LIKE "%[aeiou]";
 
+-- Weather Observation Station 8
+
+Select DISTINCT CITY FROM STATION WHERE CITY LIKE '[aeiou]%[aeiou]'
