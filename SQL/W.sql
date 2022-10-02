@@ -18,3 +18,13 @@ Select TOP 1 CITY AS NAME , LEN(CITY) AS LENG
 From STATION
 Order BY LEN(CITY) DESC , CITY
 
+-- Weather Observation Station 6
+Select CITY From STATION WHERE 
+CITY LIKE 'a%' OR 
+CITY LIKE 'e%' OR 
+CITY LIKE 'i%' OR 
+CITY LIKE 'o%' OR 
+CITY LIKE 'u%';
+
+-- OR
+SELECT CITY FROM STATION WHERE SUBSTRING(CITY,1,1) IN ('A','E','I','O','U')
