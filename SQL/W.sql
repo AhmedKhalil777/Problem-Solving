@@ -68,3 +68,19 @@ SELECT DISTINCT CITY FROM STATION WHERE CITY LIKE '[^aeiou]%' OR CITY LIKE '%[^a
 
 SELECT DISTINCT CITY FROM STATION WHERE CITY LIKE '[^aeiou]%[^aeiou]'
 
+-- Weather Observation Station 19
+
+SELECT
+CAST(
+    SQRT(
+        POWER(
+            MAX(LAT_N) - MIN(LAT_N) ,2
+        ) +
+        POWER(
+            MAX(LONG_W) - MIN(LONG_W) ,2
+        ) 
+    )
+ as decimal(7,4))
+FROM STATION
+
+
