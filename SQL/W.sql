@@ -63,3 +63,8 @@ SELECT DISTINCT CITY FROM STATION WHERE CITY LIKE '%[^aeiou]'
 -- Weather Observation Station 11
 
 SELECT DISTINCT CITY FROM STATION WHERE CITY LIKE '[^aeiou]%' OR CITY LIKE '%[^aeiou]'
+
+-- Weather Observation Station 12
+
+SELECT DISTINCT CITY FROM STATION WHERE CITY LIKE '[^aeiou]%[^aeiou]'
+
