@@ -83,4 +83,8 @@ CAST(
  as decimal(7,4))
 FROM STATION
 
+-- Weather Observation Station 20
+
+SELECT CAST(MAX(LAT_N) AS decimal(7,4)) FROM
+  ( SELECT TOP 50 PERCENT LAT_N FROM STATION ORDER BY LAT_N) AS LAT_N
 
