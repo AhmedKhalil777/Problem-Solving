@@ -8,3 +8,13 @@ SELECT CASE
        ELSE  'Not A Triangle' 
        END AS TY
 FROM TRIANGLES    
+
+-- The PADS
+
+SELECT NAME + '(' +LEFT(OCCUPATION, 1) + ')'
+From OCCUPATIONS 
+Order By Name
+SELECT 'There are a total of ' + CAST(Count(OCCUPATION) as VARCHAR(100)) + ' ' + Lower(OCCUPATION) + 's.'
+From OCCUPATIONS
+Group by OCCUPATION
+Order By Count(OCCUPATION)
