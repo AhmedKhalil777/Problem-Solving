@@ -20,4 +20,10 @@ SELECT SUM(Population)
 From CITY
 Where DISTRICT = 'California'
 
+-- Revising Aggregations - Averages
+
+SELECT AVG(Population) 
+From CITY
+Where DISTRICT = 'California'
+
 
