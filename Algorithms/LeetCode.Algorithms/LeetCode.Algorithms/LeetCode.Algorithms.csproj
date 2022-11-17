@@ -7,4 +7,8 @@
     <RootNamespace>LeetCode.Algorithms</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="IronPython" Version="2.7.12" />
+  </ItemGroup>
+
 </Project>
