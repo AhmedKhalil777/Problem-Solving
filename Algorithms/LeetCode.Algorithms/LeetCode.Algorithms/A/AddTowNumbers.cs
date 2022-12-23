@@ -1,21 +1,29 @@
 ﻿using System.Numerics;
 using System.Text;
+using System.Text.Json;
 
 namespace LeetCode.Algorithms;
 
+
+//Definition for singly-linked list.
+public class ListNode : IEquatable<ListNode>
+{
+    public int val { get; set; }
+    public ListNode next { get; set; }
+    public ListNode(int val = 0, ListNode next = null)
+    {
+        this.val = val;
+        this.next = next;
+    }
+
+    public bool Equals(ListNode? other)
+    {
+        return JsonSerializer.Serialize(this) == JsonSerializer.Serialize(other); 
+    }
+}
+
 public class AddTowNumbers
 {
-    //Definition for singly-linked list.
-    public class ListNode
-    {
-        public int val { get; set; }
-        public ListNode next { get; set; }
-        public ListNode(int val = 0, ListNode next = null)
-        {
-            this.val = val;
-            this.next = next;
-        }
-    }
 
 
     public static ListNode AddTwoNumbers(ListNode l1, ListNode l2)

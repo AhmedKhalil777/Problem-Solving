@@ -4,7 +4,7 @@ namespace LeetCode.Algorithms.Tests;
 
 using System.Text.Json;
 
-using ListNode = Algorithms.AddTowNumbers.ListNode;
+using ListNode = Algorithms.ListNode;
 public class AddTowNumbers
 {
     [Fact]
