@@ -4,6 +4,10 @@ public static class ReverseLinkedList
 {
     public static ListNode ReverseList(ListNode head)
     {
+        if (head == null)
+        {
+            return null;
+        }
         var newList = new ListNode();
         while (true)
         {
