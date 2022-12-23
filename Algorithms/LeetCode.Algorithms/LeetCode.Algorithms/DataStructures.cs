@@ -1,6 +1,9 @@
 ﻿//Definition for singly-linked list.
 using System.Text.Json;
 
+namespace LeetCode.Algorithms;
+
+
 public class ListNode : IEquatable<ListNode>
 {
     public int val { get; set; }
