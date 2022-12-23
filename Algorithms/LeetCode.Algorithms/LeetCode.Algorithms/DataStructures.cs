@@ -14,6 +14,21 @@ public class ListNode : IEquatable<ListNode>
         this.next = next;
     }
 
+    public ListNode(params int[] list)
+    {
+        var tmb = this;
+        for (int i = 0; i < list.Length; i++)
+        {
+            tmb.val = list[i];
+            if (!(i == (list.Length -1)) )
+            {
+                tmb.next = new ListNode();
+                tmb = tmb.next;
+            }
+        }
+
+    }
+
     public bool Equals(ListNode? other)
     {
         return JsonSerializer.Serialize(this) == JsonSerializer.Serialize(other);
