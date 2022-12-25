@@ -9,7 +9,7 @@ namespace LeetCode.Algorithms;
 
 public static class MergeTwoSortedLists
 {
-    public static ListNode MergeTwoLists(ListNode list1, ListNode list2)
+    public static ListNode? MergeTwoLists(ListNode? list1, ListNode? list2)
     {
         if (list1 == null && list2 == null)
         {
@@ -88,17 +88,19 @@ public static class MergeTwoSortedLists
         return res;
     }
 
-    public static ListNode MergeTwoListsSecond(ListNode list1, ListNode list2)
+    public static ListNode? MergeTwoListsSecond(ListNode? list1, ListNode? list2)
     {
-        var head = new ListNode(0, null);
-        var head1 = list1;
-        var head2 = list2;
-        var headTemp = head;
+        ListNode? head = new ListNode(0, null);
+        ListNode? head1 = list1;
+        ListNode? head2 = list2;
+        ListNode? headTemp = head;
         while (head1 != null && head2 != null)
         {
             if (head1.val <= head2.val)
             {
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
                 headTemp.next = head1;
+
                 head1 = head1.next;
             }
             else if (head1.val > head2.val)
@@ -111,5 +113,6 @@ public static class MergeTwoSortedLists
         if (head1 != null) headTemp.next = head1;
         if (head2 != null) headTemp.next = head2;
         return head.next;
+#pragma warning restore CS8602 // Dereference of a possibly null reference.
     }
 }

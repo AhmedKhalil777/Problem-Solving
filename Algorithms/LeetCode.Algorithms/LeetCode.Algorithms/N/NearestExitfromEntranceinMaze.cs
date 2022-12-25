@@ -4,7 +4,7 @@ namespace LeetCode.Algorithms;
 
 public class NearestExitfromEntranceinMaze
 {
-    static bool[,] visited;
+    static bool[,]? visited;
     public static int NearestExit(char[][] maze, int[] entrance)
     {
         var exits = FindExits(maze, entrance).Distinct();
@@ -128,7 +128,7 @@ public class NearestExitfromEntranceinMaze
                 min_dist, dist + 1);
         }
         // go to the left cell
-        if (IsSafe(mat, visited, i, j - 1))
+        if (IsSafe(mat, visited , i, j - 1))
         {
             min_dist = FindShortestPath(mat, i, j - 1, x, y,
                 min_dist, dist + 1);

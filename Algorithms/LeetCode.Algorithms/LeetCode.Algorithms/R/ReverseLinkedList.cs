@@ -2,7 +2,7 @@
 
 public static class ReverseLinkedList
 {
-    public static ListNode ReverseList(ListNode head)
+    public static ListNode? ReverseList(ListNode? head)
     {
         if (head == null)
         {

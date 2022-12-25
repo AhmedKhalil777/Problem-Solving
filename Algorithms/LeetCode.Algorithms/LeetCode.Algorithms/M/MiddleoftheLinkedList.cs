@@ -2,7 +2,7 @@
 
 public static class MiddleoftheLinkedList
 {
-    public static ListNode MiddleNode(ListNode head)
+    public static ListNode? MiddleNode(ListNode? head)
     {
         if (head == null)
         {
@@ -19,7 +19,7 @@ public static class MiddleoftheLinkedList
         length = (length +1) / 2;
         for (int i = 0; i < length; i++)
         {
-            tmb = tmb.next;
+            tmb = tmb?.next;
         }
         return tmb;
     }

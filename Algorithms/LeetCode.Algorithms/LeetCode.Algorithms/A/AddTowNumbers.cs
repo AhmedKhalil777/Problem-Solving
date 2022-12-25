@@ -9,7 +9,7 @@ public class AddTowNumbers
 {
 
 
-    public static ListNode AddTwoNumbers(ListNode l1, ListNode l2)
+    public static ListNode AddTwoNumbers(ListNode? l1, ListNode? l2)
     {
         var res = new ListNode();
         var stringBuilder = new StringBuilder();
