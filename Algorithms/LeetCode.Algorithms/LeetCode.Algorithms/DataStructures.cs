@@ -33,6 +33,17 @@ public class ListNode : IEquatable<ListNode>, INullable
 
     }
 
+
+    public void AddToLast(ListNode node)
+    {
+        var last = this;
+        while (last.next is not null)
+        {
+            last = last.next;
+        }
+        last.next = node;
+    }
+
     public bool Equals(ListNode? other)
     {
         return JsonSerializer.Serialize(this) == JsonSerializer.Serialize(other);
