@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace LeetCode.Algorithms;
 
-namespace LeetCode.Algorithms.S
+public static class SquaresofaSortedArray
 {
-    internal class SquaresofaSortedArray
+    public static int[] SortedSquares(int[] nums)
     {
+        return nums.Select(x => x * x ).OrderBy(x=> x).ToArray();
     }
 }
