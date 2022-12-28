@@ -10,7 +10,7 @@ public class ListNode : IEquatable<ListNode>, INullable
     public int val { get; set; }
     public ListNode? next { get; set; }
 
-    public bool IsNull =>  this is null;
+    public bool IsNull => this is null;
 
     public ListNode(int val = 0, ListNode? next = null)
     {
@@ -24,7 +24,7 @@ public class ListNode : IEquatable<ListNode>, INullable
         for (int i = 0; i < list.Length; i++)
         {
             tmb.val = list[i];
-            if (!(i == (list.Length -1)) )
+            if (!(i == (list.Length - 1)))
             {
                 tmb.next = new ListNode();
                 tmb = tmb.next;
@@ -67,5 +67,18 @@ public class Node
     {
         val = _val;
         children = _children;
+    }
+}
+
+public class TreeNode
+{
+    public int val;
+    public TreeNode left;
+    public TreeNode right;
+    public TreeNode(int val = 0, TreeNode left = null, TreeNode right = null)
+    {
+        this.val = val;
+        this.left = left;
+        this.right = right;
     }
 }
