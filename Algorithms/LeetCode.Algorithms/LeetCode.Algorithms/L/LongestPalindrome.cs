@@ -1,5 +1,28 @@
 ﻿namespace LeetCode.Algorithms;
 
+
+public class LongestPalindrome
+{
+    public static int LongestPalindromeM(string s)
+    {
+        var dict = new Dictionary<char, int>();
+        foreach (var c in s)
+        {
+            if (dict.ContainsKey(c))
+            {
+                 dict[c]++;
+            }
+            else
+            {
+                dict.Add(c, 1);
+            }
+        }
+        var containsOdds = dict.Any(x => x.Value % 2 == 1);
+        var evens = dict.Select(x=> x.Value /2).Sum() * 2;
+        return containsOdds ? evens + 1 : evens;
+    }
+}
+
 public class LongestPalindromeI
 {
     // Manacher's algorithm

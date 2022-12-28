@@ -3,8 +3,9 @@
 public class LongestPalindrome
 {
     [Fact]
-    public void LongestPalindromeI_GivenMultiSet_ShouldReturnExpectedRes()
+    public void LongestPalindromeM()
     {
-
+        Algorithms.LongestPalindrome.LongestPalindromeM("abccccdd").Should().Be(7);
+        Algorithms.LongestPalindrome.LongestPalindromeM("a").Should().Be(1);
     }
 }
