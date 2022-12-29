@@ -1,0 +1,4 @@
+﻿{
+  val: 1,
+  IsNull: false
+}
