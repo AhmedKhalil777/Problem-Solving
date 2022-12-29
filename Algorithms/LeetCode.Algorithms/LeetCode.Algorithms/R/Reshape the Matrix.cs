@@ -26,7 +26,7 @@ public static class Reshape_the_Matrix
                 if (n == c)
                 {
                     n = 0;
-                    r++;
+                    m++;
                 }
             }
         }
