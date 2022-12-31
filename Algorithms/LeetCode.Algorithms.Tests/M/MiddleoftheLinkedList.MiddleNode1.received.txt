@@ -1,0 +1,12 @@
+﻿{
+  val: 4,
+  next: {
+    val: 5,
+    next: {
+      val: 6,
+      IsNull: false
+    },
+    IsNull: false
+  },
+  IsNull: false
+}
