@@ -20,6 +20,10 @@ public class ListNode : IEquatable<ListNode>, INullable
 
     public ListNode(params int[] list)
     {
+        if (!list.Any())
+        {
+            return;
+        }
         var tmb = this;
         for (int i = 0; i < list.Length; i++)
         {
@@ -33,6 +37,19 @@ public class ListNode : IEquatable<ListNode>, INullable
 
     }
 
+    public int[] ToArray()
+    {
+        var res = new List<int> { this.val };
+        var cur = this;
+        
+        while (cur.next != null)
+        {
+            cur = cur.next;
+            res.Add(cur.val);
+        }
+
+        return res.ToArray();
+    }
 
     public void AddToLast(ListNode node)
     {
