@@ -99,3 +99,10 @@ public class TreeNode
         this.right = right;
     }
 }
+
+public class TrieNode
+{
+    public bool EndOfWord { get; set; }
+
+    public TrieNode[] Children = new TrieNode[26];
+}
