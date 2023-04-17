@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace LeetCode.Algorithms;
+namespace LeetCode.Algorithms.Tests;
 
 public class Building_H2O
 {

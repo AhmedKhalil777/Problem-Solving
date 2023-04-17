@@ -10,6 +10,8 @@ Solving problems of Hacker rank on dotnet
 # Leet Code Problems
 |Problem                                       | Solution                                                                                                    |
 |:---------------------------------------------|:------------------------------------------------------------------------------------------------------------|
+|15. 3Sum                                      |[#af2db21](https://github.com/AhmedKhalil777/Problem-Solving/blob/main/Algorithms/LeetCode.Algorithms/LeetCode.Algorithms/T/3Sum.cs)|
+|605. Can Place Flowers                        |[#af2db21](https://github.com/AhmedKhalil777/Problem-Solving/commit/af2db21b086bc1adb4fb63d719c7471b82ef466d)|
 |1431. Kids With the Greatest Number of Candies|[#82b7a48](https://github.com/AhmedKhalil777/Problem-Solving/commit/82b7a48f2a121944055e9ee01197c7f178539191)|
 
 # Domains
