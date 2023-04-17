@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode.Algorithms", "LeetCode.Algorithms\LeetCode.Algorithms.csproj", "{BB7B3685-3ABD-459A-9555-674E2BD80729}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode.Algorithms", "LeetCode.Algorithms\LeetCode.Algorithms.csproj", "{BB7B3685-3ABD-459A-9555-674E2BD80729}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode.Algorithms.Tests", "..\LeetCode.Algorithms.Tests\LeetCode.Algorithms.Tests.csproj", "{7A6C3A73-6825-4CB5-8880-3518297E8DBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode.Algorithms.Tests", "..\LeetCode.Algorithms.Tests\LeetCode.Algorithms.Tests.csproj", "{7A6C3A73-6825-4CB5-8880-3518297E8DBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{7AF7F0DC-DC3A-43F5-9B36-5EDA1A36E8F4}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\README.md = ..\..\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
