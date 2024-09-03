@@ -32,7 +32,7 @@ jobs:
         name: dotnet-results-algorithms-tests
         path: ./Algorithms/TestResults-Algorithms
     - name: Download all workflow run artifacts
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4.1.7
       with:
         name: dotnet-results-algorithms-tests
         path: ./Algorithms/TestResults-Algorithms
@@ -62,7 +62,7 @@ jobs:
         name: dotnet-results-data-structures-tests
         path: ./DataStructures/TestResults-DataStructures
     - name: Download all workflow run artifacts
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4.1.7
       with:
         name: dotnet-results-data-structures-tests
         path: ./DataStructures/TestResults-DataStructures
